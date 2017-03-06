@@ -147,9 +147,16 @@ header {
   text-align: center;
 }
 
-.coaching p {
+.coaching p, .coaching ul {
   padding: 0 25px;
   margin-bottom: 25px;
+}
+
+.coaching li {
+  list-style: disc;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  text-align: left;
 }
 
 .coaches-pic {
