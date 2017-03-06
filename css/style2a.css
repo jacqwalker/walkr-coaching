@@ -478,6 +478,14 @@ footer nav li a:hover {
     padding: 0 75px;
   }
 
+  .about-coach {
+    animation-name: fadeInUp;
+  }
+
+  .fadeInUp {
+    
+  }
+
   .howitworks {
     padding: 5% 2.5%;
   }
