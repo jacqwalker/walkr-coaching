@@ -377,6 +377,14 @@ footer nav li a:hover {
     padding: 20%;
   }
 
+  .coaching p {
+    padding: 0 40px;
+  }
+
+  .coaching li {
+    margin-left: 60px;
+  }
+
   /*articles area styling*/
   .articles-section {
     width: 100%;
@@ -414,7 +422,7 @@ footer nav li a:hover {
 
   /*how it works section*/
   .howitworks {
-    padding: 10%;
+    padding: 5% 10%;
   }
 
   .howitworks p {
