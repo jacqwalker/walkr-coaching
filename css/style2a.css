@@ -382,7 +382,15 @@ footer nav li a:hover {
   }
 
   .coaching li {
-    margin-left: 60px;
+    list-style: none;
+    text-align: center;
+  }
+
+
+  .about-coach, .contact-deets {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
   }
 
   /*articles area styling*/
@@ -436,18 +444,23 @@ footer nav li a:hover {
     font-size: 18px;
   }
 
-  .resources-button {
-    margin: 0 25px;
+  .coaching p {
+    padding: 0 75px;
   }
 
-  /*information section*/
   .howitworks {
-    padding: 2.5%;
+    padding: 5% 2.5%;
   }
 
   .howitworks-div {
     display: inline-block;
     width: 32%;
+    vertical-align: top;
+    margin-top: 0;
+  }
+
+  .first-box {
+    margin-top: 0;
   }
 
   .howitworks p {
@@ -457,7 +470,6 @@ footer nav li a:hover {
   .margin-adj {
     margin-bottom: 55px;
   }
-  /*end of information section*/
 
   .image-divider img {
     height: 500px;
