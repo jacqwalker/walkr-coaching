@@ -127,6 +127,22 @@ header {
   padding: 30%;
 }
 
+.coaching-section {
+  background: url(../images/image6a.jpg) center center no-repeat;
+}
+
+.howitworks-section {
+  background: url(../images/image1a.jpg) center center no-repeat;
+}
+
+.articles-image-section {
+  background: url(../images/image2a.jpg) center center no-repeat;
+}
+
+.testimonial-section {
+  background: url(../images/image10a.jpg) center center no-repeat;
+}
+
 .headings {
   text-align: center;
   padding: 20px 0;
@@ -142,22 +158,6 @@ header {
 }
 
 /*coaching section*/
-.coaching-section {
-  background: url(../images/image6.jpg) center center no-repeat;
-}
-
-.howitworks-section {
-  background: url(../images/image1.jpg) center center no-repeat;
-}
-
-.articles-image-section {
-  background: url(../images/image2.jpg) center center no-repeat;
-}
-
-.testimonial-section {
-  background: url(../images/image10.jpg) center center no-repeat;  
-}
-
 .coaching {
   text-align: center;
 }
@@ -254,6 +254,7 @@ header {
 /*articles page styling*/
 .articles-section {
   padding: 15px 25px 50px;
+  margin: 0 auto;
 }
 
 .introduction {
@@ -338,7 +339,6 @@ footer nav li a:hover {
 /*end of footer styling*/
 
 @media (min-width: 480px) { /* mobile-landscape */
-
   /*main section styling*/
   .resources-button {
     display: inline-block;
@@ -347,7 +347,6 @@ footer nav li a:hover {
 
   .articles-section {
     width: 85%;
-    margin: 0 auto;
   }
 
   .article-info {
@@ -459,6 +458,22 @@ footer nav li a:hover {
     font-size: 18px;
   }
 
+  .coaching-section {
+    background: url(../images/image6.jpg) center center no-repeat;
+  }
+
+  .howitworks-section {
+    background: url(../images/image1.jpg) center center no-repeat;
+  }
+
+  .articles-image-section {
+    background: url(../images/image2.jpg) center center no-repeat;
+  }
+
+  .testimonial-section {
+    background: url(../images/image10.jpg) center center no-repeat;
+  }
+
   .coaching p {
     padding: 0 75px;
   }
@@ -485,10 +500,6 @@ footer nav li a:hover {
   .margin-adj {
     margin-bottom: 55px;
   }
-
-  .image-divider img {
-    height: 500px;
-  }
 }
 
 @media (min-width: 1220px) { /* laptops/desktops */
@@ -498,10 +509,6 @@ footer nav li a:hover {
 
   .nav-header {
     margin-right: 25px;
-  }
-
-  .image-divider img {
-    height: 700px;
   }
 
   .resources-section {
