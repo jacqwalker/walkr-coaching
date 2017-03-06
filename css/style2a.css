@@ -1,0 +1,480 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/*header styling*/
+header {
+  background-color: #09c1b3;
+  border-bottom: 5px solid #440063;
+  color: white;
+  line-height: 1;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  padding: 12.5px 0px 10px 15px;
+  float: left;
+}
+
+.header-italic {
+  font-style: italic;
+  font-size: 26px;
+  text-transform: none;
+  font-family: 'Merriweather', sans-serif;
+}
+
+.nav-icon {
+  float: right;
+  font-size: 37.5px;
+  padding: 12.5px;
+}
+
+.nav-icon:hover {
+  color: #440063;
+  cursor: pointer;
+}
+
+.nav-header {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  clear: both;
+}
+
+.nav-header ul {
+  padding: 0 20px 20px;
+}
+
+.navlist-item {
+  border-bottom: 2px solid white;
+}
+
+.navlist-item:first-child {
+  border-top: 2px solid white;
+}
+
+.navlist-item:hover {
+  background-color: #08ADA1;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
+.visible {
+  max-height: 250px;
+}
+/*end of header styling*/
+
+/*main section styling*/
+.resources-section {
+  background: url(../images/image7.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 30%;
+  color: white;
+}
+
+.headings {
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.headings span {
+  display: inline-block;
+  width: 150px;
+  height: 1px;
+  background: black;
+}
+
+/*coaching section*/
+.coaching {
+  text-align: center;
+}
+
+.coaching p {
+  padding: 0 25px;
+  margin-bottom: 25px;
+}
+
+.coaches-pic {
+  border-radius: 50%;
+  max-height: 150px;
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+.contact-deets {
+  text-align: center;
+}
+
+.contact-deets-links {
+  background-color: #09c1b3;
+  text-decoration: none;
+  color: white;
+  margin: 7.5px 2.5px 25px;
+  padding: 7.5px 10px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.contact-deets-links:hover {
+  background-color: #440063;
+}
+/*end of coaching section*/
+
+/*how it works section*/
+.howitworks {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.howitworks-div {
+  margin-top: 40px;
+  vertical-align: top;
+}
+
+.howitworks-div:last-child {
+  margin-bottom: 40px;
+}
+
+.howitworks h3 {
+  padding:  0 7.5px;
+}
+
+.howitworks p {
+  padding: 7.5px 15px;
+}
+
+.button-reference {
+  background-color: white;
+  text-decoration: none;
+  color: #440063;
+  padding: 3.5% 7.5%;
+  display: block;
+  max-width: 165px;
+  margin: 10px auto;
+  letter-spacing: 2px;
+}
+
+.button-reference:hover {
+  background-color: #09c1b3;
+  color: white;
+}
+
+.icons-green {
+  font-size: 35px;
+  color: #09c1b3;
+}
+/*end of information section*/
+
+/*articles page styling*/
+.articles-section {
+  padding: 15px 25px 50px;
+}
+
+.introduction {
+  text-align: center;
+}
+
+.introduction p {
+  margin-bottom: 10px;
+}
+
+.article-block {
+  margin-top: 30px;
+}
+
+.article-number {
+  background-color: #09c1b3;
+  width: 20px;
+  border-radius: 50%;
+  color: #fff;
+  padding: 5px 20px 5px 17.5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.article-info {
+  display: inline-block;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.article-info h5, .article-info p {
+  margin-bottom: 10px;
+}
+
+.external-link {
+  color: #440063;
+  padding: 5px 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  display: block;
+  width: 165px;
+  border: 1px solid #440063;
+}
+
+.external-link:hover {
+  background-color: #440063;
+  color: #fff;
+}
+/*end of articles page styling*/
+/*end of main section styling*/
+
+/*footer*/
+footer {
+  background-color: #09c1b3;
+  padding: 15px 0;
+  text-align: center;
+  color: white;
+}
+
+footer nav {
+  margin: 10px 0;
+}
+
+footer ul {
+  padding: 0 5px;
+}
+
+footer nav li {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+footer nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 0 5px;
+}
+
+footer nav li a:hover {
+  color: #440063;
+}
+/*end of footer styling*/
+
+@media (min-width: 480px) { /* mobile-landscape */
+
+  /*main section styling*/
+  .resources-button {
+    display: inline-block;
+    margin: 0 12.5px;
+  }
+
+  .articles-section {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .article-info {
+    width: 275px;
+  }
+
+  .button-reference {
+    padding: 5px;
+  }
+}
+
+@media (min-width: 650px) { /* tablet-portrait */
+  .nav-icon {
+    display: none;
+  }
+
+  .nav-header {
+    max-height: none;
+    float: right;
+    clear: none;
+    font-size: 17px;
+    padding: 10px;
+  }
+
+  .nav-header ul {
+    padding: 0;
+  }
+
+  .navlist-item {
+    display: inline-block;
+  }
+
+  .navlist-item, .navlist-item:first-child {
+    border: none;
+  }
+
+  .navlist-item:hover {
+    background-color: inherit;
+  }
+
+  .nav-link:hover {
+    color: #440063;
+  }
+
+  .resources-section {
+    padding: 20%;
+  }
+
+  /*articles area styling*/
+  .articles-section {
+    width: 100%;
+  }
+
+  .article-block {
+    width: 260px;
+    margin-left: 25px;
+  }
+
+  .article-info {
+    width: 175px;
+  }
+
+  .flex {
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-content: stretch;
+  }
+
+  .flex-1 {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    align-content: stretch;
+  }
+
+  .flexed-item {
+    flex: 2 1 auto;
+  }
+
+  .flex-item {
+    flex: 1 1 auto;
+  }
+  /*end of articles area styling*/
+
+  /*how it works section*/
+  .howitworks {
+    padding: 10%;
+  }
+
+  .howitworks p {
+    padding: 7.5px 50px;
+  }
+
+  .button-reference {
+    padding: 10px;
+  }
+/*end of how it works section*/
+}
+
+@media (min-width: 940px) { /* tablet-landscape/smaller laptops */
+  .nav-header {
+    font-size: 18px;
+  }
+
+  .resources-button {
+    margin: 0 25px;
+  }
+
+  /*information section*/
+  .howitworks {
+    padding: 2.5%;
+  }
+
+  .howitworks-div {
+    display: inline-block;
+    width: 32%;
+  }
+
+  .howitworks p {
+    padding: 0 25px;
+  }
+
+  .margin-adj {
+    margin-bottom: 55px;
+  }
+  /*end of information section*/
+
+  .image-divider img {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1220px) { /* laptops/desktops */
+  header h1 {
+    margin-left: 25px;
+  }
+
+  .nav-header {
+    margin-right: 25px;
+  }
+
+  .image-divider img {
+    height: 700px;
+  }
+
+  .resources-section {
+    padding: 15%;
+  }
+
+  .howitworks {
+    padding: 2.5%;
+  }
+
+  .howitworks-div {
+    margin-top: 30px;
+  }
+
+}
