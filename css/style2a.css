@@ -159,6 +159,23 @@ header {
   text-align: left;
 }
 
+.email-section {
+  margin-bottom: 25px;
+}
+
+.email-add {
+  background-color: #09c1b3;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+}
+
+.email-add:hover {
+  background-color: #440063;
+}
+
 .coaches-pic {
   border-radius: 50%;
   max-height: 150px;
@@ -197,6 +214,10 @@ header {
   vertical-align: top;
 }
 
+.first-box {
+  margin-top: 0;
+}
+
 .howitworks-div:last-child {
   margin-bottom: 40px;
 }
@@ -207,22 +228,6 @@ header {
 
 .howitworks p {
   padding: 7.5px 15px;
-}
-
-.button-reference {
-  background-color: white;
-  text-decoration: none;
-  color: #440063;
-  padding: 3.5% 7.5%;
-  display: block;
-  max-width: 165px;
-  margin: 10px auto;
-  letter-spacing: 2px;
-}
-
-.button-reference:hover {
-  background-color: #09c1b3;
-  color: white;
 }
 
 .icons-green {
@@ -333,10 +338,6 @@ footer nav li a:hover {
   .article-info {
     width: 275px;
   }
-
-  .button-reference {
-    padding: 5px;
-  }
 }
 
 @media (min-width: 650px) { /* tablet-portrait */
@@ -419,10 +420,6 @@ footer nav li a:hover {
   .howitworks p {
     padding: 7.5px 50px;
   }
-
-  .button-reference {
-    padding: 10px;
-  }
 /*end of how it works section*/
 }
 
@@ -483,5 +480,4 @@ footer nav li a:hover {
   .howitworks-div {
     margin-top: 30px;
   }
-
 }
